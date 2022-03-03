@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif !important;
+    background-image: url('https://res.cloudinary.com/kimchidrwas/image/upload/v1646248021/Portafolio%20UI%20%2A/Fondo_qth7xh.png');
+    background-size: 100%;
+}
+
+div,
+ul,
+li,
+section,
+a,
+p,
+figure,
+img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-name>img {
+    position: absolute;
+    top: 35px;
+    left: 24.5%;
+    width: 800px;
+}
+
+.curtain-left>img {
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    height: 724.4px;
+}
+
+.curtain-right>img {
+    position: absolute;
+    top: 0px;
+    left: 93.5%;
+    width: 100px;
+    height: 724.4px;
+}
+
+.birds-photos>img {
+    position: absolute;
+    left: 14%;
+    top: 250px;
+    width: 160px;
+}
+
+.birds-photos{
+    transition: 300ms all;
+}
+
+.birds-photos:hover {
+    opacity: 40%;
+}
+
+.birds-name{
+    position: absolute;
+    font-size: 18px;
+    font-style: italic;
+    visibility: hidden;
+    color: #e26b9bd5;
+    font-family: "Mansalva" , cursive;
+}
+
+.haru{
+    z-index: 1;
+    top: 280px;
+    left: 21%;
+}
+
+.jojo{
+    z-index: 1;
+    top: 222px;
+    left: 14.6%;
+}
+
+.plants-left>img {
+    position: absolute;
+    left: 40px;
+    top: 558px;
+    width: 230px;
+}
+
+.plants-right>img {
+    position: absolute;
+    top: 132px;
+    left: 80.45%;
+    width: 300px;
+}
+
+.desk>img {
+    position: absolute;
+    top: 559px;
+    left: 18%;
+    width: 1000px;
+}
+
+.top>img {
+    position: absolute;
+    top: 561px;
+    left: 39%;
+    width: 350px;
+}
+
+.books>img {
+    position: absolute;
+    top: 552px;
+    left: 19%;
+    width: 130px;
+}
+
+.cactus>img {
+    position: absolute;
+    top: 512px;
+    left: 29%;
+    width: 85px;
+}
+
+.keyboard>img {
+    position: absolute;
+    top: 596px;
+    left: 43%;
+    width: 230px;
+}
+
+.screen>img {
+    position: absolute;
+    top: 331px;
+    left: 37.5%;
+    width: 390px;
+}
+
+.mouse>img {
+    position: absolute;
+    top: 583px;
+    left: 67%;
+    width: 52px;
+}
+
+.movil>img {
+    position: absolute;
+    top: 490.5px;
+    left: 75%;
+    width: 52px;
+}
+
+.title {
+    position: absolute;
+    font-size: 22px;
+    color: black;
+    transition: 300ms all;
+}
+
+.title:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 8px #e695b7, 0 1px 8px #e695b7, 1px 0 8px #e695b7, 0 -1px 8px #e695b7;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.aboutme {
+    top: 490px;
+    left: 20%;
+}
+
+.webdesign {
+    top: 275px;
+    left: 46%;
+}
+
+.movildesign {
+    top: 440px;
+    left: 72.5%;
+}
+
+.hour {
+    z-index: 1;
+    position: absolute;
+    top: 430px;
+    left: 39.5%;
+    color: rgba(241, 234, 221, 0.712);
+    font-size: 35px;
+}
+
+.date {
+    z-index: 1;
+    position: absolute;
+    top: 470px;
+    left: 39.5%;
+    color: rgba(241, 234, 221, 0.712);
+}
