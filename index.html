@@ -28,40 +28,48 @@
     <!-- DESKTOP -->
     <div class="desktop">
         <figure class="desk">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646259847/Portafolio%20UI%20%2A/Escritorio_xmu4jp.png" alt="">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646259847/Portafolio%20UI%20%2A/Escritorio_xmu4jp.png"
+                alt="">
         </figure>
 
         <figure class="top">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646259842/Portafolio%20UI%20%2A/Escritorio2_ukhhp1.png" alt="">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646259842/Portafolio%20UI%20%2A/Escritorio2_ukhhp1.png"
+                alt="">
         </figure>
 
-        <div class="title aboutme"> About Me </div>
+        <div class="title aboutme" onclick="expandModal('modal-about','close-about')"> Acerca de </div>
         <figure class="books">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248018/Portafolio%20UI%20%2A/About_qtmmxu.png" alt="">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248018/Portafolio%20UI%20%2A/About_qtmmxu.png"
+                alt="">
         </figure>
 
         <figure class="cactus">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/PlantaEscritorio_smzwb6.png" alt="">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/PlantaEscritorio_smzwb6.png"
+                alt="">
         </figure>
 
         <figure class="keyboard">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/Teclado_mnoq1s.png" alt="">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/Teclado_mnoq1s.png"
+                alt="">
         </figure>
 
-        <div class="title webdesign"> Web Design </div>
+        <div class="title webdesign" onclick="expandModal('modal-web','close-web')"> Diseño Web </div>
         <div class="hour"> 5:50 PM </div>
         <div class="date"> Jueves, 24 de febrero </div>
         <figure class="screen">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248018/Portafolio%20UI%20%2A/Pantalla_hzhlja.png" alt="">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248018/Portafolio%20UI%20%2A/Pantalla_hzhlja.png"
+                alt="">
         </figure>
 
         <figure class="mouse">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248018/Portafolio%20UI%20%2A/Mouse_ckoatl.png" alt="">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248018/Portafolio%20UI%20%2A/Mouse_ckoatl.png"
+                alt="">
         </figure>
 
-        <div class="title movildesign"> Movil Desgin </div>
+        <div class="title movildesign" onclick="expandModal('modal-movil','close-movil')"> Diseño Movil </div>
         <figure class="movil">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248018/Portafolio%20UI%20%2A/Movil_mppufn.png" alt="">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248018/Portafolio%20UI%20%2A/Movil_mppufn.png"
+                alt="">
         </figure>
     </div>
 
@@ -69,30 +77,128 @@
     <div class="background">
         <div class="courtains">
             <figure class="curtain-left">
-                <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/CortinaIz_yq4omj.png" alt="">
+                <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/CortinaIz_yq4omj.png"
+                    alt="">
             </figure>
             <figure class="curtain-right">
-                <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646249891/Portafolio%20UI%20%2A/CortinaDer_i0esyj.png" alt="">
+                <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646249891/Portafolio%20UI%20%2A/CortinaDer_i0esyj.png"
+                    alt="">
             </figure>
         </div>
 
         <div class="birds-name haru" id="birds-name"> Haru</div>
         <div class="birds-name jojo" id="birds-name1"> JoJo</div>
-        <figure class="birds-photos"  onmouseover="show('birds-name'),show('birds-name1')" onmouseleave="hide('birds-name'),hide('birds-name1')">
-            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248020/Portafolio%20UI%20%2A/Pollitos_ljjwjl.png" alt="">
+        <figure class="birds-photos" onmouseover="showHide('show','birds-name'),showHide('show','birds-name1')"
+            onmouseleave="showHide('hide','birds-name'),showHide('hide','birds-name1')">
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248020/Portafolio%20UI%20%2A/Pollitos_ljjwjl.png"
+                alt="">
         </figure>
 
         <div class="plants">
             <figure class="plants-left">
-                <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/Planta1_xw7hvp.png" alt="">
+                <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/Planta1_xw7hvp.png"
+                    alt="">
             </figure>
             <figure class="plants-right">
-                <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/Planta2_zurxvo.png" alt="">
+                <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248019/Portafolio%20UI%20%2A/Planta2_zurxvo.png"
+                    alt="">
             </figure>
         </div>
     </div>
 
+    <!-- MODAL ABOUT ME -->
+    <div id="modal-about" class="modal">
+        <div class="container-fluid">
+            <span class="close" id="close-about">&times;</span>
+
+            <div class="modal-content">
+                <div class="hook">
+                    <img src="https://64.media.tumblr.com/e97ea0853ab16c00189743f8837575b8/b5aee68b4f16152b-ff/s250x400/c3274e34891fa4ef30c4bf652b72be26eee56ad2.png"
+                        alt="hook">
+                </div>
+                <div class="about-id">
+                    <p class="circle">&nbsp;</p>
+                    <p class="id-title">Abril Rios</p>
+                    <img class="id-img"
+                        src="https://res.cloudinary.com/kimchidrwas/image/upload/v1647387817/Portafolio%20UI%20%2A/About/Me_icon_itmnyu.png">
+                    <p class="id-name">UPIICSA IPN</p>
+                    <p class="id-subtitle">Ingenieria en Informatica</p>
+                    <p class="id-detail"> 24 años</p>
+                    <p class="id-detail"> abril-re@hotmail.com </p>
+                    <p class="id-detail"> CDMX </p>
+                    <img class="id-bar"
+                        src="https://res.cloudinary.com/kimchidrwas/image/upload/v1627061486/Portfolio%20images/barcode_fns4r0.png"
+                        alt="bar code">
+
+                </div>
+                <div class="about-description">
+                    <div class="about-title"> Acerca de </div>
+                    <div class="about-text">
+                        ¡Hola soy Abril!
+                        Desde que tome mi primera clase relacionada al HTML, algo desperto mi interes, en secundaria
+                        donde te enseñan a hacer tu primer página web, con fondo de color rojo y letras amarillas
+                        diciendo "Hola mundo" o "Mi primer página web". <br> <br>
+                        En la universidad, tuve un acercamiento más preciso, entendiendo que el diseño no solo aplicaba
+                        para páginas web, si no que era un area mucho más compleja que podia ser desplegada en UI y UX,
+                        ambos complementandose para brindar la mejor experiencia y atención del usuario.
+
+                    </div>
+                    <div class="about-cards-container">
+                        <div class="cards">
+                            <i class="fas fa-search-plus aicon" aria-hidden="true"></i>
+                            <p class="atitle">Intereses</p>
+                            <p class="a-subtitle"> diseño web e ilustración de juegos</p>
+                            <p class="content">
+                                Para ser honesta me interesa todo lo que este relacionado con el diseño así sea web,
+                                gráfico o de ilustración, ya que el diseño (a mi parecer) tiene mucho poder, incluzo
+                                definir el exito que tendra o si sera olvidado.
+                            </p>
+                            <hr class="a-line">
+                        </div>
+
+                        <div class="cards">
+                            <i class="fas fa-flag-checkered aicon" aria-hidden="true"></i>
+                            <p class="atitle"> Metas </p>
+                            <p class="a-subtitle">Crear algo que la gente nunca olvide</p>
+                            <p class="content">
+                                Siempre que me cuestiono mis metas "dejar una marca de lo que hice en este mundo", es mi
+                                primer pensamiento. Como mencione, un buen diseño puede definir el futuro de un proyecto
+                                e
+                                incluzo dejar su sello o quedar como "ejemplo" de exito.
+                            </p>
+                            <hr class="a-line">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL WEB DESIGN -->
+    <div id="modal-web" class="modal">
+        <div class="container-fluid">
+            <span class="close" id="close-web">&times;</span>
+            <div class="modal-content" />
+            <div id="web-title"> Title </div>
+            <div id="web-text"> aaaa </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- MODAL MOVIL DESIGN -->
+    <div id="modal-movil" class="modal">
+        <div class="container-fluid">
+            <span class="close" id="close-movil">&times;</span>
+            <div class="modal-content" />
+            <div id="movil-title"> Title </div>
+            <div id="movil-text"> uuuu </div>
+        </div>
+    </div>
+    </div>
+
     <script src="./JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/21506e9718.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
