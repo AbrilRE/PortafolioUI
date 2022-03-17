@@ -307,7 +307,7 @@ img {
     justify-content: center;
     text-align: justify;
     margin-top: 5px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-size: 1em;
     font-weight: 300;
 }
@@ -420,20 +420,30 @@ img {
     visibility: hidden;
 }
 
-.page2{
-    position: relative;
-    top:-240px;
+.page1{
+    position: absolute;
 }
 
-.page3{
-    position: relative;
-    top:-480px;
+.pages{
+    position: absolute;
+    top:45px;
 }
 
+.desc-image>img{
+    width: 100%;
+    margin-bottom: 40px;
+}
 
-.page4{
-    position: relative;
-    top:-720px;
+.desc-wireframes{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.desc-wireframes>img{
+    width: 50%;
+    margin-left: 15px;
+    height: max-content;
 }
 
 /*MODAL*/
