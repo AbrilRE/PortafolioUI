@@ -110,7 +110,6 @@
     <div id="modal-about" class="modal">
         <div class="container-fluid">
             <span class="close" id="close-about">&times;</span>
-
             <div class="modal-content">
                 <div class="hook">
                     <img src="https://64.media.tumblr.com/e97ea0853ab16c00189743f8837575b8/b5aee68b4f16152b-ff/s250x400/c3274e34891fa4ef30c4bf652b72be26eee56ad2.png"
@@ -131,9 +130,9 @@
                         alt="bar code">
 
                 </div>
-                <div class="about-description">
-                    <div class="about-title"> Acerca de </div>
-                    <div class="about-text">
+                <div class="description">
+                    <div class="desc-title"> Acerca de </div>
+                    <div class="desc-text">
                         ¡Hola soy Abril!
                         Desde que tome mi primera clase relacionada al HTML, algo desperto mi interes, en secundaria
                         donde te enseñan a hacer tu primer página web, con fondo de color rojo y letras amarillas
@@ -180,8 +179,80 @@
         <div class="container-fluid">
             <span class="close" id="close-web">&times;</span>
             <div class="modal-content" />
-            <div id="web-title"> Title </div>
-            <div id="web-text"> aaaa </div>
+            <div class="web-laptop">
+                <div class="view-page" id="view-page"> Ver Pagina>> </div>
+                <img id="laptop" src="https://res.cloudinary.com/kimchidrwas/image/upload/v1646248030/Portafolio%20UI%20%2A/Web/WebEjemplo1_ygrlk1.png"
+                    onmouseover="showHide('show','view-page')" onmouseleave="showHide('hide','view-page')">
+            </div>
+            <div class="description">
+                <div class="desc-title"> Diseño Web </div>
+
+                <div id="webpage1">
+                    <div class="desc-subtitle" id="desc-subtitle"> Diseño Web 1</div>
+                    <div class="desc-text" id="desc-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet
+                        nulla dolor mollitia suscipit enim quo quod aspernatur ducimus, eveniet fuga, adipisci culpa sed
+                        pariatur fugiat. Ipsum voluptatibus explicabo enim. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorem repellendus odio veritatis laudantium provident quas enim, recusandae
+                        soluta alias voluptate perspiciatis obcaecati dolore quisquam voluptatibus, pariatur quasi harum
+                        adipisci reiciendis
+
+                    </div>
+                </div>
+
+                <div class="web-page page2" id="webpage2">
+                    <div class="desc-subtitle" id="desc-subtitle"> Diseño Web 2</div>
+                    <div class="desc-text" id="desc-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet
+                        nulla dolor mollitia suscipit enim quo quod aspernatur ducimus, eveniet fuga, adipisci culpa sed
+                        pariatur fugiat. Ipsum voluptatibus explicabo enim. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorem repellendus odio veritatis laudantium provident quas enim, recusandae
+                        soluta alias voluptate perspiciatis obcaecati dolore quisquam voluptatibus, pariatur quasi harum
+                        adipisci reiciendis
+
+                    </div>
+                </div>
+
+                <div class="web-page page3" id="webpage3">
+                    <div class="desc-subtitle" id="desc-subtitle"> Diseño Web 3</div>
+                    <div class="desc-text" id="desc-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet
+                        nulla dolor mollitia suscipit enim quo quod aspernatur ducimus, eveniet fuga, adipisci culpa sed
+                        pariatur fugiat. Ipsum voluptatibus explicabo enim. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorem repellendus odio veritatis laudantium provident quas enim, recusandae
+                        soluta alias voluptate perspiciatis obcaecati dolore quisquam voluptatibus, pariatur quasi harum
+                        adipisci reiciendis
+
+                    </div>
+                </div>
+
+                <div class="web-page page4" id="webpage4">
+                    <div class="desc-subtitle" id="desc-subtitle"> Diseño Web 4</div>
+                    <div class="desc-text" id="desc-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet
+                        nulla dolor mollitia suscipit enim quo quod aspernatur ducimus, eveniet fuga, adipisci culpa sed
+                        pariatur fugiat. Ipsum voluptatibus explicabo enim. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorem repellendus odio veritatis laudantium provident quas enim, recusandae
+                        soluta alias voluptate perspiciatis obcaecati dolore quisquam voluptatibus, pariatur quasi harum
+                        adipisci reiciendis
+
+                    </div>
+                </div>
+            </div>
+            <div class="web-options">
+                <img id="web1"
+                    src="https://res.cloudinary.com/kimchidrwas/image/upload/v1647469879/Portafolio%20UI%20%2A/Web/WebPage3_xrsq9n.png"
+                    onclick="showHide('hide','webpage2'),showHide('hide','webpage3'),showHide('hide','webpage4'),showHide('show','webpage1'),change('page1')">
+                <img id="web2"
+                    src="https://res.cloudinary.com/kimchidrwas/image/upload/v1647469879/Portafolio%20UI%20%2A/Web/WebPage2_krhkjo.png"
+                    onclick="showHide('hide','webpage1'),showHide('hide','webpage3'),showHide('hide','webpage4'),showHide('show','webpage2'),change('page2')">
+                <img id="web3"
+                    src="https://res.cloudinary.com/kimchidrwas/image/upload/v1647469879/Portafolio%20UI%20%2A/Web/WebPage1_rlyfgr.png"
+                    onclick="showHide('hide','webpage1'),showHide('hide','webpage2'),showHide('hide','webpage4'),showHide('show','webpage3'),change('page3')">
+                <img id="web4"
+                    src="https://res.cloudinary.com/kimchidrwas/image/upload/v1647469879/Portafolio%20UI%20%2A/Web/WebPage4_qkl748.png"
+                    onclick="showHide('hide','webpage1'),showHide('hide','webpage2'),showHide('hide','webpage3'),showHide('show','webpage4'),change('page4')">
+            </div>
         </div>
     </div>
     </div>

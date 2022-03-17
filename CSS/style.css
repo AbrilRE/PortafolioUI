@@ -282,11 +282,12 @@ img {
     margin-top: 35px !important;
 }
 
-.about-description {
+.description {
     width: 76%;
 }
 
-.about-title {
+/*DESC*/
+.desc-title {
     display: flex;
     justify-content: center;
     font-size: 2.2em;
@@ -294,18 +295,19 @@ img {
     margin-bottom: 40px;
 }
 
-.about-subtitle {
+.desc-subtitle {
     display: flex;
     justify-content: center;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.about-text {
+.desc-text {
     display: flex;
     justify-content: center;
     text-align: justify;
     margin-top: 5px;
+    padding-bottom: 50px;
     font-size: 1em;
     font-weight: 300;
 }
@@ -315,9 +317,9 @@ img {
     margin-top: 10px;
     justify-content: center;
     align-items: center;
-  }
-  
-  .cards {
+}
+
+.cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -328,47 +330,111 @@ img {
     width: 370px;
     background-color: #ffb3cb;
     transition: 300ms all;
-  }
+}
 
-  .cards:hover{
+.cards:hover {
     transform: scale(1.05);
-  }
-  
-  .aicon {
+}
+
+.aicon {
     text-align: center;
     font-size: 60px;
     margin: 10px;
     color: #212529;
-  }
-  
-  .atitle {
+}
+
+.atitle {
     font-variant: small-caps;
     font-size: 1.4em;
     font-weight: bolder;
     color: #212529;
-  }
-  
-  .a-subtitle {
+}
+
+.a-subtitle {
     font-variant: small-caps;
     font-size: 1.1em;
     margin-top: -25px !important;
     margin-bottom: 8px !important;
     font-weight: bold;
     color: #212529;
-  }
-  
-  .content {
+}
+
+.content {
     text-align: center;
     font-size: 0.8em;
     color: #212529;
-  }
-  
-  .a-line {
+}
+
+.a-line {
     width: 15%;
     background-color: rgb(0, 0, 0);
     border-top: 1.5px solid rgb(0, 0, 0);
-  }
-  
+}
+
+/*WEB*/
+.web-laptop>img {
+    width: 85%;
+    margin-top: 24%;
+}
+
+.web-laptop>img:hover {
+    filter: brightness(55%);
+    cursor: pointer;
+}
+
+.view-page {
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    visibility: hidden;
+    color: #ffffffd5;
+    font-family: "Mansalva";
+    z-index: 1;
+    top: 240px;
+    left: 170px;
+}
+
+.web-options {
+    width: 100%;
+    position:fixed;
+    bottom: 50px;
+    left: 20%;
+}
+
+.web-options>img {
+    cursor: pointer;
+    margin-left: 35px;
+    width: 200px;
+    height: 110px;
+    transition: 300ms;
+    filter: brightness(80%);
+}
+
+.web-options>img:hover {
+    opacity: 100%;
+    transform: scale(1.2);
+    filter: brightness(110%);
+}
+
+.web-page{
+    visibility: hidden;
+}
+
+.page2{
+    position: relative;
+    top:-240px;
+}
+
+.page3{
+    position: relative;
+    top:-480px;
+}
+
+
+.page4{
+    position: relative;
+    top:-720px;
+}
 
 /*MODAL*/
 .modal {
