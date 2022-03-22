@@ -214,6 +214,11 @@
 }
 
 /*WEB*/
+.pages{
+  top:90px;
+}
+
+
 .web-laptop>img {
   width: 90%;
   margin-top: 27%;
@@ -236,6 +241,20 @@
   transform: scale(1.2);
   filter: brightness(110%);
 }
+
+/*MOVIL*/
+.movil-proto>img {
+   width: 90%;
+   margin-top: 22%;
+   margin-right: 10%;
+}
+
+.view-proto {
+   font-size: 35px;
+   top: 5%;
+   left: 5%;
+}
+
 
 /*MODAL*/
 .close {
