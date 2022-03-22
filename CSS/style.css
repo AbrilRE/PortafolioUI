@@ -446,6 +446,34 @@ img {
     height: max-content;
 }
 
+/*MOVIL*/
+.movil-proto{
+   text-align: center;
+}
+
+.movil-proto>img {
+    width: 70%;
+    margin-top: 3%;
+}
+
+.movil-proto>img:hover {
+    filter: brightness(55%);
+    cursor: pointer;
+}
+
+.view-proto {
+    position: absolute;
+    font-size: 25px;
+    font-style: italic;
+    visibility: hidden;
+    color: #ffffffd5;
+    font-family: "Mansalva";
+    z-index: 1;
+    top: 7%;
+    left: 9%;
+}
+
+
 /*MODAL*/
 .modal {
     display: none;
