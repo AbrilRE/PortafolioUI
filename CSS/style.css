@@ -18,33 +18,43 @@ img {
     padding: 0px;
 }
 
+.canvas-responsive {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .header-name>img {
     position: absolute;
-    top: 35px;
-    left: 24.5%;
-    width: 800px;
+    top: 5%;
+    margin: auto;
+    right: 0%;
+    left: 0%;
+    width: 110vh;
 }
 
 .curtain-left>img {
     position: absolute;
-    top: 0px;
-    width: 100px;
-    height: 724.4px;
+    top: 0vh;
+    width: 12vh;
+    height: 100%;
 }
 
 .curtain-right>img {
     position: absolute;
-    top: 0px;
-    left: 93.5%;
-    width: 100px;
-    height: 724.4px;
+    top: 0vh;
+    right: 0vh;
+    width: 12vh;
+    height: 100%;
 }
 
 .birds-photos>img {
     position: absolute;
     left: 14%;
-    top: 250px;
-    width: 160px;
+    top: 34%;
+    width: 22vh;
 }
 
 .birds-photos {
@@ -57,7 +67,7 @@ img {
 
 .birds-name {
     position: absolute;
-    font-size: 18px;
+    font-size: 2.5vh;
     font-style: italic;
     visibility: hidden;
     color: #e26b9bd5;
@@ -66,89 +76,97 @@ img {
 
 .haru {
     z-index: 1;
-    top: 280px;
+    top: 38.5%;
     left: 21%;
 }
 
 .jojo {
     z-index: 1;
-    top: 222px;
+    top: 30.5%;
     left: 14.6%;
 }
 
 .plants-left>img {
     position: absolute;
-    left: 40px;
-    top: 558px;
-    width: 230px;
+    left: 2.5%;
+    bottom: 0%;
+    width: 32vh;
 }
 
 .plants-right>img {
     position: absolute;
-    top: 132px;
-    left: 80.45%;
-    width: 300px;
+    top: 17%;
+    right: 0vh;
+    width: 42vh;
 }
 
 .desk>img {
     position: absolute;
-    top: 559px;
-    left: 18%;
-    width: 1000px;
+    margin: auto;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    width: 138vh;
 }
 
 .top>img {
     position: absolute;
-    top: 561px;
-    left: 39%;
-    width: 350px;
+    margin: auto;
+    right: 0%;
+    bottom: 15.6%;
+    left: 0%;
+    width: 49vh;
 }
 
 .books>img {
     position: absolute;
-    top: 552px;
+    top: 76.1%;
     left: 19%;
-    width: 130px;
+    width: 18vh;
 }
 
 .cactus>img {
     position: absolute;
-    top: 512px;
+    top: 70.7%;
     left: 29%;
-    width: 85px;
+    width: 11.7vh;
 }
 
 .keyboard>img {
     position: absolute;
-    top: 596px;
-    left: 43%;
-    width: 230px;
+    margin: auto;
+    right: 0%;
+    bottom: 15.8%;
+    left: 0%;
+    width: 32vh;
 }
 
 .screen>img {
     position: absolute;
-    top: 331px;
-    left: 37.5%;
-    width: 390px;
+    margin: auto;
+    right: 0%;
+    bottom: 22.7%;
+    left: 0%;
+    width: 54vh;
 }
 
 .mouse>img {
     position: absolute;
-    top: 583px;
+    top: 80%;
     left: 67%;
-    width: 52px;
+    width: 7.5vh;
 }
 
 .movil>img {
     position: absolute;
-    top: 490.5px;
+    top: 67.6%;
     left: 75%;
-    width: 52px;
+    width: 7.15vh;
 }
 
 .title {
     position: absolute;
-    font-size: 22px;
+    font-size: 3vh;
     color: black;
     transition: 300ms all;
 }
@@ -161,35 +179,36 @@ img {
 }
 
 .aboutme {
-    top: 490px;
+    top: 67%;
     left: 20%;
 }
 
 .webdesign {
-    top: 275px;
+    top: 37%;
     left: 46%;
 }
 
 .movildesign {
-    top: 440px;
+    top: 60%;
     left: 72.5%;
 }
 
 .hour {
     z-index: 1;
     position: absolute;
-    top: 430px;
+    top: 59%;
     left: 39.5%;
     color: rgba(241, 234, 221, 0.712);
-    font-size: 35px;
+    font-size: 5vh;
 }
 
 .date {
     z-index: 1;
     position: absolute;
-    top: 470px;
+    top: 65%;
     left: 39.5%;
     color: rgba(241, 234, 221, 0.712);
+    font-size: 2.2vh;
 }
 
 .container-fluid {
@@ -202,7 +221,7 @@ img {
     flex-direction: column;
     align-items: center;
     width: 24%;
-    height: 506px;
+    height: 67vh;
     margin: 50px 50px 50px 0px;
     padding: 35px 20px;
     background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1647377099/Portafolio%20UI%20%2A/About/id_card_hqjuol.png);
@@ -218,40 +237,40 @@ img {
 
 .hook {
     z-index: 1;
-    margin-top: -37px;
-    left: 181px;
-    position: relative;
+    margin-top: -2.5%;
+    left: 17.1%;
+    position: fixed;
 }
 
 .hook>img {
-    width: 65px;
-    height: 110px;
+    width: 9vh;
+    height: 15.5vh;
 }
 
 .circle {
     background: rgba(109, 109, 109, 0.336);
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    margin-top: -20px !important;
+    width: 3.5vh;
+    height: 3.5vh;
+    margin-top: -7% !important;
 }
 
 .id-title {
     margin-bottom: 10px !important;
-    font-size: 2em;
+    font-size: 4.5vh;
     color: #f991b0;
     font-weight: bold;
     font-variant: small-caps;
 }
 
 .id-img {
-    width: 150px;
+    width: 20vh;
     border: 5px solid white;
     border-radius: 5px;
 }
 
 .id-name {
-    font-size: 1.1em;
+    font-size: 2.5vh;
     margin-bottom: 2px;
     color: #000000bd;
     font-weight: bold;
@@ -261,7 +280,7 @@ img {
 .id-subtitle {
     margin-top: -3px !important;
     margin-bottom: 20px !important;
-    font-size: 0.9em;
+    font-size: 2vh;
     color: #0000009a;
     font-weight: bold;
     font-style: italic;
@@ -269,7 +288,7 @@ img {
 
 
 .id-detail {
-    font-size: 0.9em;
+    font-size: 1.8vh;
     font-style: italic;
     font-weight: 600;
     color: #00000093;
@@ -277,9 +296,9 @@ img {
 
 .id-bar {
     z-index: 1;
-    width: 130px;
-    height: 30px;
-    margin-top: 35px !important;
+    width: 20vh;
+    height: 4vh;
+    margin-top: 31% !important;
 }
 
 .description {
@@ -290,31 +309,30 @@ img {
 .desc-title {
     display: flex;
     justify-content: center;
-    font-size: 2.2em;
-    margin-top: -50px;
-    margin-bottom: 40px;
+    font-size: 4.5vh;
+    margin-top: -5.5%;
+    margin-bottom: 5%;
 }
 
 .desc-subtitle {
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 3.2vh;
+    margin-bottom: 2.5%;
 }
 
 .desc-text {
     display: flex;
     justify-content: center;
     text-align: justify;
-    margin-top: 5px;
-    padding-bottom: 20px;
-    font-size: 1em;
+    margin-top: 2%;
+    padding-bottom: 2.5%;
+    font-size: 2.2vh;
     font-weight: 300;
 }
 
 .about-cards-container {
     display: flex;
-    margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -325,9 +343,9 @@ img {
     justify-content: center;
     align-items: center;
     margin: 15px 25px 0px 25px;
-    padding: 35px;
-    height: 350px;
-    width: 370px;
+    padding: 4.5%;
+    height: 47vh;
+    width: 48vh;
     background-color: #ffb3cb;
     transition: 300ms all;
 }
@@ -338,30 +356,30 @@ img {
 
 .aicon {
     text-align: center;
-    font-size: 60px;
-    margin: 10px;
+    font-size: 6vh;
+    margin: 2.5%;
     color: #212529;
 }
 
 .atitle {
     font-variant: small-caps;
-    font-size: 1.4em;
+    font-size: 3.2vh;
     font-weight: bolder;
     color: #212529;
 }
 
 .a-subtitle {
     font-variant: small-caps;
-    font-size: 1.1em;
-    margin-top: -25px !important;
-    margin-bottom: 8px !important;
+    font-size: 2.2vh;
+    margin-top: -7% !important;
+    margin-bottom: 3% !important;
     font-weight: bold;
     color: #212529;
 }
 
 .content {
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.8vh;
     color: #212529;
 }
 
@@ -372,9 +390,14 @@ img {
 }
 
 /*WEB*/
+.link {
+    padding: 0%;
+    width: 45%;
+}
+
 .web-laptop>img {
-    width: 85%;
-    margin-top: 24%;
+    width: 60vh;
+    margin-top: 35%;
 }
 
 .web-laptop>img:hover {
@@ -384,28 +407,31 @@ img {
 
 .view-page {
     position: absolute;
-    font-size: 30px;
+    font-size: 4vh;
     font-style: italic;
     visibility: hidden;
     color: #ffffffd5;
     font-family: "Mansalva";
     z-index: 1;
-    top: 240px;
-    left: 170px;
+    top: 61%;
+    left: 12%;
 }
 
 .web-options {
-    width: 100%;
-    position:fixed;
-    bottom: 50px;
-    left: 20%;
+    width: 10%;
+    position: fixed;
+    margin: auto;
+    top: 24%;
+    right: -1%;
+    bottom: 0%;
 }
 
 .web-options>img {
+    border-radius: 100%;
     cursor: pointer;
-    margin-left: 35px;
-    width: 200px;
-    height: 110px;
+    padding: 6%;
+    width: 14vh;
+    height: 14vh;
     transition: 300ms;
     filter: brightness(80%);
 }
@@ -416,39 +442,56 @@ img {
     filter: brightness(110%);
 }
 
-.web-page{
+.web-page {
     visibility: hidden;
 }
 
-.page1{
+.page1 {
     position: absolute;
 }
 
-.pages{
+.pages {
     position: absolute;
-    top:45px;
+    top: 45px;
 }
 
-.desc-image>img{
-    width: 100%;
+.desc-image{
+    text-align: center;
+}
+
+.desc-image>img {
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.big-wire{
+    text-align: center;
     margin-bottom: 40px;
 }
 
-.desc-wireframes{
+.big-wire>img {
+    border-radius: 10px;
+    width: 70%;
+}
+
+.desc-wireframes {
     display: flex;
-    width: 100%;
+    text-align: center;
+    width: 90%;
     margin-bottom: 30px;
 }
 
-.desc-wireframes>img{
+.desc-wireframes>img {
+    border-radius: 10px;
     width: 50%;
     margin-left: 15px;
     height: max-content;
 }
 
 /*MOVIL*/
-.movil-proto{
-   text-align: center;
+.movil-proto {
+    text-align: center;
 }
 
 .movil-proto>img {
@@ -463,7 +506,7 @@ img {
 
 .view-proto {
     position: absolute;
-    font-size: 25px;
+    font-size: 3.5vh;
     font-style: italic;
     visibility: hidden;
     color: #ffffffd5;
@@ -500,28 +543,32 @@ img {
 
 .modal-content {
     -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
+    -webkit-animation-duration: 0.8s;
     animation-name: zoom;
-    animation-duration: 0.6s;
+    animation-duration: 0.8s;
 }
 
 @-webkit-keyframes zoom {
     from {
-        -webkit-transform: scale(0);
+        /*-webkit-transform: scale(1);*/
+        opacity: 1;
     }
 
     to {
-        -webkit-transform: scale(1);
+        /*-webkit-transform: scale(0);*/
+        opacity: 0;
     }
 }
 
 @keyframes zoom {
     from {
-        transform: scale(0);
+        /*transform: scale(0);*/
+        opacity: 0;
     }
 
     to {
-        transform: scale(1);
+        /*transform: scale(1);*/
+        opacity: 1;
     }
 }
 

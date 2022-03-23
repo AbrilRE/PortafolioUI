@@ -2,7 +2,7 @@ let expandModal = function (modal, span) {
     document.getElementById(modal).style.display = "block";
 
     document.getElementById(span).addEventListener("click", function () {
-        document.getElementById(modal).style.display = "none";
+         document.getElementById(modal).style.display = "none";
     });
 };
 
