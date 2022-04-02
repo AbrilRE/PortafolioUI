@@ -305,7 +305,7 @@
   }
 
   .web-options {
-   margin-right: -2%;
+    margin-right: -2%;
   }
 
   .web-options>img {
@@ -327,8 +327,366 @@
 
   .close {
     font-size: 24px;
-}
+  }
 }
 
 /* SMALL */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url('https://res.cloudinary.com/kimchidrwas/image/upload/v1648858131/Portafolio%20UI%20%2A/Fondo-movil_unbmhb.png');
+    background-size: 100%;
+  }
+
+  .header-name>img {
+    top: 5%;
+    margin: auto;
+    right: 0%;
+    left: -7%;
+    width: 65vh;
+  }
+
+  .curtain-left>img {
+    z-index: -1;
+    left: 0%;
+    width: 7vh;
+  }
+
+  .curtain-right>img {
+    z-index: -1;
+    right: 0%;
+    width: 7vh;
+  }
+
+  .birds-photos>img {
+    visibility: hidden;
+  }
+
+  .birds-name {
+    font-size: 2.5vh;
+  }
+
+  .haru {
+    top: 38.5%;
+    left: 21%;
+  }
+
+  .jojo {
+    top: 30.5%;
+    left: 14.6%;
+  }
+
+  .plants-left>img {
+    visibility: hidden;
+  }
+
+  .plants-right>img {
+    visibility: hidden;
+  }
+
+  .desk>img {
+    visibility: hidden;
+  }
+
+  .desk-movil>img {
+    visibility: visible;
+    left: -30.5%;
+    bottom: 22.3%;
+    width: 90vh;
+  }
+
+  .chair-movil>img {
+    z-index: 2;
+    visibility: visible;
+    left: 25%;
+    bottom: 20.5%;
+    width: 26vh;
+  }
+
+  .floor-movil>img {
+    z-index: -1;
+    visibility: visible;
+    left: 0%;
+    bottom: -12.8%;
+    width: 100%;
+  }
+
+  .bed-movil>img {
+    z-index: 3;
+    visibility: visible;
+    left: -30%;
+    bottom: -2%;
+    width: 48vh;
+  }
+
+  .birds-movil>img {
+    visibility: visible;
+    right: -4%;
+    bottom: -2%;
+    width: 17vh;
+  }
+
+  .top>img {
+    bottom: 45.9%;
+    width: 34vh;
+  }
+
+  .books>img {
+    top: 47.4%;
+    left: -15%;
+    width: 15vh;
+  }
+
+  .cactus>img {
+    position: absolute;
+    top: 40%;
+    left: 87%;
+    right: 0px;
+    width: 12vh;
+  }
+
+  .keyboard>img {
+    right: 0%;
+    bottom: 46%;
+    left: 0%;
+    width: 26vh;
+  }
+
+  .screen>img {
+    z-index: 0;
+    bottom: 50.8%;
+    width: 33vh;
+  }
+
+  .mouse>img {
+    visibility: hidden;
+  }
+
+  .movil>img {
+    z-index: 3;
+    top: 69.2%;
+    left: 25%;
+    width: 6vh;
+  }
+
+  .title {
+    font-size: 2vh;
+  }
+
+  .aboutme {
+    color: rgb(219, 211, 209);
+    top: 81%;
+    left: 80%;
+  }
+
+  .webdesign {
+    top: 25%;
+    left: 40%;
+  }
+
+  .movildesign {
+    z-index: 3;
+    top: 65%;
+    left: 20%;
+  }
+
+  .hour {
+    z-index: 1;
+    top: 37.5%;
+    left: 25.5%;
+    font-size: 3.2vh;
+  }
+
+  .date {
+    z-index: 1;
+    top: 41.5%;
+    left: 25.5%;
+    font-size: 1.5vh;
+  }
+
+  .modal-content {
+    z-index: 5;
+    flex-direction: column !important;
+  }
+
+  .link {
+    width: 100%;
+  }
+
+  .web-laptop>img {
+    width: 100%;
+    margin-top: 15%;
+  }
+
+  .view-page {
+    font-size: 3vh;
+    top: 35%;
+    left: 31%;
+  }
+
+  .web-options {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    top: 3%;
+    right: 48%;
+    height: 10vh;
+    margin: 0px !important;
+  }
+
+  .web-options>img {
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .pages {
+    top: 100%;
+  }
+
+  .desc-image>img {
+    width: 100%;
+  }
+
+  .big-wire>img {
+    width: 100%;
+  }
+
+  .desc-wireframes {
+    width: 100%;
+    margin-bottom: 0%;
+  }
+
+  .desc-wireframes>img {
+    width: 50%;
+    margin: 0%;
+    padding: 5px !important;
+    height: max-content;
+  }
+
+  .view-proto {
+    font-size: 2.5vh;
+    top: 4%;
+    left: 33% !important;
+  }
+
+  .about-id {
+    width: 75%;
+    height: 54vh !important;
+    margin: 0px;
+    margin-left: 14%;
+    padding: 35px 20px;
+  }
+
+  .about-id>p {
+    margin: 0px;
+  }
+
+  .hook {
+    z-index: 1;
+    margin-top: -24% !important;
+    left: 44% !important;
+    position: absolute;
+  }
+
+  .hook>img {
+    width: 7vh;
+    height: 13.5vh;
+  }
+
+  .circle {
+    width: 3.2vh;
+    height: 3.2vh;
+    margin-top: -9% !important;
+  }
+
+  .id-title {
+    margin-top: 5% !important;
+    margin-bottom: 10px !important;
+    font-size: 3vh !important;
+  }
+
+  .id-img {
+    width: 15vh;
+  }
+
+  .id-name {
+    font-size: 2vh !important;
+    margin-bottom: 5%;
+  }
+
+  .id-subtitle {
+    margin-top: -3px !important;
+    margin-bottom: 8% !important;
+    font-size: 1.6vh !important;
+  }
+
+
+  .id-detail {
+    font-size: 1.8vh !important;
+    margin-bottom: 3% !important;
+  }
+
+  .id-bar {
+    width: 18vh;
+    height: 4vh;
+    margin-top: 30% !important;
+  }
+
+  .about-cards-container {
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+
+  .cards {
+    margin: 3% 0%;
+    padding: 4.5%;
+    height: 42vh;
+    width: 90%;
+  }
+
+  .aicon {
+    font-size: 6.5vh;
+    margin: 2.5%;
+  }
+
+  .atitle {
+    font-size: 3.2vh;
+  }
+
+  .a-subtitle {
+    font-size: 2.2vh;
+    margin-top: -7% !important;
+    margin-bottom: 3% !important;
+  }
+
+  .content {
+    font-size: 1.8vh;
+  }
+
+  .a-line {
+    width: 15%;
+    margin-top: 1%;
+  }
+
+  /* DESC */
+  .description {
+    width: 100%;
+  }
+
+  .desc-title {
+    font-size: 3.1vh !important;
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+
+  .desc-subtitle {
+    font-size: 2.5vh !important;
+    margin-bottom: 3%;
+  }
+
+  .desc-text {
+    margin-top: 2%;
+    padding-bottom: 2.5%;
+    font-size: 2.2vh !important;
+  }
+
+}

@@ -109,6 +109,31 @@ img {
     width: 138vh;
 }
 
+.desk-movil>img {
+    position: absolute;
+    visibility: hidden;
+}
+
+.chair-movil>img {
+    position: absolute;
+    visibility: hidden;
+}
+
+.floor-movil>img {
+    position: absolute;
+    visibility: hidden;
+}
+
+.bed-movil>img {
+    position: absolute;
+    visibility: hidden;
+}
+
+.birds-movil>img {
+    position: absolute;
+    visibility: hidden;
+}
+
 .top>img {
     position: absolute;
     margin: auto;
@@ -455,7 +480,7 @@ img {
     top: 45px;
 }
 
-.desc-image{
+.desc-image {
     text-align: center;
 }
 
@@ -465,7 +490,7 @@ img {
     width: 90%;
 }
 
-.big-wire{
+.big-wire {
     text-align: center;
     margin-bottom: 40px;
 }
