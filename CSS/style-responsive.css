@@ -342,18 +342,18 @@
     margin: auto;
     right: 0%;
     left: -7%;
-    width: 65vh;
+    width: 60vh;
   }
 
   .curtain-left>img {
     z-index: -1;
-    left: 0%;
+    left: -1%;
     width: 7vh;
   }
 
   .curtain-right>img {
     z-index: -1;
-    right: 0%;
+    right: -1%;
     width: 7vh;
   }
 
@@ -389,7 +389,7 @@
 
   .desk-movil>img {
     visibility: visible;
-    left: -30.5%;
+    left: -38.5%;
     bottom: 22.3%;
     width: 90vh;
   }
@@ -426,7 +426,8 @@
   }
 
   .top>img {
-    bottom: 45.9%;
+    z-index: 0;
+    bottom: 46.1%;
     width: 34vh;
   }
 
@@ -474,12 +475,12 @@
 
   .aboutme {
     color: rgb(219, 211, 209);
-    top: 81%;
-    left: 80%;
+    top: 80%;
+    left: 75%;
   }
 
   .webdesign {
-    top: 25%;
+    top: 23%;
     left: 40%;
   }
 
