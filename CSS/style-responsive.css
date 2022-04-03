@@ -432,14 +432,14 @@
   }
 
   .books>img {
-    top: 46%;
+    top: 45%;
     left: -15%;
     width: 15vh;
   }
 
   .cactus>img {
     position: absolute;
-    top: 39%;
+    top: 37.8%;
     left: 87%;
     right: 0px;
     width: 12vh;
@@ -447,7 +447,7 @@
 
   .keyboard>img {
     right: 0%;
-    bottom: 48%;
+    bottom: 47.6%;
     left: 0%;
     width: 26vh;
   }
@@ -689,5 +689,10 @@
     padding-bottom: 2.5%;
     font-size: 2.2vh !important;
   }
+
+  .close {
+    top:5px;
+    right: 20px;
+}
 
 }
