@@ -426,20 +426,20 @@
   }
 
   .top>img {
-    z-index: 0;
-    bottom: 46.1%;
+    z-index: -1;
+    bottom: 47%;
     width: 34vh;
   }
 
   .books>img {
-    top: 47.4%;
+    top: 46%;
     left: -15%;
     width: 15vh;
   }
 
   .cactus>img {
     position: absolute;
-    top: 40%;
+    top: 39%;
     left: 87%;
     right: 0px;
     width: 12vh;
@@ -447,7 +447,7 @@
 
   .keyboard>img {
     right: 0%;
-    bottom: 46%;
+    bottom: 48%;
     left: 0%;
     width: 26vh;
   }
@@ -465,7 +465,7 @@
   .movil>img {
     z-index: 3;
     top: 69.2%;
-    left: 25%;
+    left: 22%;
     width: 6vh;
   }
 
@@ -487,7 +487,7 @@
   .movildesign {
     z-index: 3;
     top: 65%;
-    left: 20%;
+    left: 18.5%;
   }
 
   .hour {
