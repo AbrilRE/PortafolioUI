@@ -195,24 +195,13 @@
     height: 4vh;
     margin-top: 25% !important;
   }
-
-  .movil-proto>img {
-    width: 80%;
-    margin-top: 25%;
-  }
-
-  .view-proto {
-    font-size: 3.2vh;
-    top: 5%;
-    left: 6%;
-  }
 }
 
 /* MEDIUM */
 @media only screen and (max-width: 1368px) {
 
   .description {
-    width: 73%;
+    width: 100%;
   }
 
   .about-id {
@@ -243,9 +232,12 @@
     font-size: 2.5vh !important;
   }
 
+  .id-bar{
+    margin-top: 18% !important;
+  }
+
   .id-subtitle {
     margin-top: 0.1% !important;
-    font-size: 2vh !important;
   }
 
   .id-detail {
@@ -268,8 +260,8 @@
   .cards {
     margin: 0px 10px;
     padding: 3%;
-    height: 40vh;
-    width: 75vh;
+    height: 35vh;
+    width: 50vh;
   }
 
   .aicon {
@@ -308,15 +300,14 @@
     margin-right: -2%;
   }
 
-  .web-options>img {
+  .options-images>img {
     padding: 5%;
     width: 11vh;
     height: 11vh;
   }
 
   .movil-proto>img {
-    width: 55% !important;
-    margin-top: 5%;
+    width: 22% !important;
   }
 
   .view-proto {
@@ -518,6 +509,14 @@
     margin-top: 15%;
   }
 
+  .desc-about{
+      width: 100%;
+  }
+
+  .pages{
+    width: 100%;
+  }
+
   .view-page {
     font-size: 3vh;
     top: 35%;
@@ -527,20 +526,30 @@
   .web-options {
     display: flex;
     flex-direction: row;
+    left: 10%;
     width: 40%;
-    top: 3%;
-    right: 48%;
+    top: 1.5%;
     height: 10vh;
     margin: 0px !important;
   }
 
-  .web-options>img {
-    width: 10vh;
-    height: 10vh;
+  .movil-options {
+    left: 30% !important;
   }
 
-  .pages {
-    top: 100%;
+  .up-button{
+    bottom: 3% !important;
+    right: 4%;
+    bottom: 5%;
+}
+
+  .up-button >img{
+    width: 6vh;
+}
+
+  .options-images>img {
+    width: 10vh;
+    height: 10vh;
   }
 
   .desc-image>img {
@@ -640,8 +649,8 @@
   .cards {
     margin: 3% 0%;
     padding: 4.5%;
-    height: 42vh;
-    width: 90%;
+    height: 47vh;
+    width: 95%;
   }
 
   .aicon {

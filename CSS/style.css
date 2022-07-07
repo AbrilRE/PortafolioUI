@@ -327,6 +327,16 @@ img {
 }
 
 .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.desc-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 76%;
 }
 
@@ -335,7 +345,7 @@ img {
     display: flex;
     justify-content: center;
     font-size: 4.5vh;
-    margin-top: -5.5%;
+    margin-top: -3.5%;
     margin-bottom: 5%;
 }
 
@@ -353,6 +363,18 @@ img {
     margin-top: 2%;
     padding-bottom: 2.5%;
     font-size: 2.2vh;
+    font-weight: 300;
+}
+
+.highlight{
+    font-style: italic;
+    font-size: 2.2vh;
+    font-weight: 600;
+}
+
+.desc-highlight{
+    font-style: italic;
+    font-size: 2vh;
     font-weight: 300;
 }
 
@@ -415,31 +437,50 @@ img {
 }
 
 /*WEB*/
-.link {
-    padding: 0%;
-    width: 45%;
+a{
+    text-decoration: none !important;
 }
+
+.line{
+    margin: 30px;
+    margin-bottom: 60px;
+    border:1px solid rgb(255, 255, 255) ;
+    width: 70%;
+}
+
+.button-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button{
+    font-size: 2vh;
+    cursor: pointer;
+    display: inherit;
+    justify-content: center;
+    width: 200px;
+    background-color: #f3aebd;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: 300ms all;
+}
+
+.button:hover{
+    color: rgb(140, 58, 113);
+    transform: scale(1.1);
+}
+
+.web-laptop {
+    display: flex;
+    justify-content: center;
+}
+
 
 .web-laptop>img {
     width: 60vh;
-    margin-top: 35%;
-}
-
-.web-laptop>img:hover {
-    filter: brightness(55%);
-    cursor: pointer;
-}
-
-.view-page {
-    position: absolute;
-    font-size: 4vh;
-    font-style: italic;
-    visibility: hidden;
-    color: #ffffffd5;
-    font-family: "Mansalva";
-    z-index: 1;
-    top: 61%;
-    left: 12%;
 }
 
 .web-options {
@@ -447,12 +488,11 @@ img {
     position: fixed;
     margin: auto;
     top: 24%;
-    right: -1%;
+    left: 2%;
     bottom: 0%;
 }
 
-.web-options>img {
-    border-radius: 100%;
+.options-images>img {
     cursor: pointer;
     padding: 6%;
     width: 14vh;
@@ -461,23 +501,33 @@ img {
     filter: brightness(80%);
 }
 
-.web-options>img:hover {
+.options-images>img:hover {
     opacity: 100%;
     transform: scale(1.2);
     filter: brightness(110%);
 }
 
-.web-page {
-    visibility: hidden;
+.up-button{
+    position: fixed;
+    margin: auto;
+    bottom: 50%;
+    right: 4%;
+    bottom: 5%;
+    transition: 300ms;
 }
 
-.page1 {
-    position: absolute;
+.up-button:hover{
+    transform: scale(1.1);
 }
 
-.pages {
-    position: absolute;
-    top: 45px;
+
+.up-button >img{
+    border-radius: 10px;
+    width: 8vh;
+}
+
+.pages{
+    width: 80%;
 }
 
 .desc-image {
@@ -516,18 +566,14 @@ img {
 
 /*MOVIL*/
 .movil-proto {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .movil-proto>img {
-    width: 70%;
-    margin-top: 3%;
+    width: 32vh
 }
 
-.movil-proto>img:hover {
-    filter: brightness(55%);
-    cursor: pointer;
-}
 
 .view-proto {
     position: absolute;
@@ -559,7 +605,6 @@ img {
 
 .modal-content {
     z-index: 3;
-    display: block;
     color: white;
     flex-direction: row !important;
     border: none !important;
@@ -600,11 +645,11 @@ img {
 /* Close Button */
 .close {
     z-index: 3;
-    position: absolute;
-    top: 25px;
-    right: 35px;
+    position: fixed;
+    top: 20px;
+    right: 55px;
     color: #f1f1f1;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     transition: 0.3s;
 }
